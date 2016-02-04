@@ -1,0 +1,56 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color: antiquewhite
+}
+
+header, nav, main {
+    text-align:center
+}
+
+a {
+    text-decoration:none;
+}
+
+header, nav, main, section, aside, footer {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color:floralwhite;
+    border-color:black;
+    border-radius:7px;
+    border-style:none;
+}
+
+header > p {
+    text-align:right; 
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+    text-align:center;
+}
+
+aside { 
+    width: 20%;
+    float:right;
+}
+
+
+h4 {
+    text-align: center
+}
+section {
+    float: left; 
+}
+
+section {
+    width: 70%
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+}
