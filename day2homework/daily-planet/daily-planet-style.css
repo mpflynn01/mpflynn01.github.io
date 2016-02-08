@@ -1,7 +1,7 @@
 body {
     width: 75%;
     margin: 0 auto;
-    background-color: antiquewhite
+    background-color: #6e9191
 }
 
 
@@ -44,11 +44,9 @@ aside {
 h4 {
     text-align: center
 }
-section {
-    float: left; 
-}
 
 section {
+    float: left;
     width: 70%
 }
 
