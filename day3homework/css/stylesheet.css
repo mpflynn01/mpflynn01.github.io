@@ -1,0 +1,26 @@
+body {
+    padding:10px;    
+}
+
+h4, p, h1, nav {
+    padding: 10px;
+}
+
+header, .link {
+    background-color:rgb(61, 102, 192);
+    color:white;
+    font-family: sans-serif;
+}
+
+td {
+    width:50%;
+    height:50%;
+}
+
+img {
+    width:100%;
+}
+
+#gray {
+    background-color:rgb(243,243,243);    
+}
