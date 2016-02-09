@@ -1,6 +1,17 @@
 body {
+    text-align:center;
     background-color:black;
     color:white;
+}
+
+img {
+    transition-property:opacity;
+    transition-duration:2s; 
+    border-radius:10px;
+    filter:blur(100%);
+    margin:auto;
+    height: 30%;
+    width: 30%;
 }
 
 a {

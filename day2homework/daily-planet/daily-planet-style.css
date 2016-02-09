@@ -4,7 +4,6 @@ body {
     background-color: #6e9191
 }
 
-
 header, nav, main {
     text-align:center
 }
@@ -14,12 +13,12 @@ a {
 }
 
 header, nav, main, section, aside, footer {
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom:10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom:5px;
     background-color:floralwhite;
     border-color:black;
-    border-radius:7px;
+    border-radius:3.5px;
     border-style:none;
 }
 
@@ -35,9 +34,15 @@ img {
     margin-right:auto 
 }
 
+#boat {
+    float:right; 
+    max-height:50%;
+    max-width:50%;
+}
+
 aside { 
-    width: 20%;
-    float:right;
+    width: 25%;
+    float: right;
 }
 
 
