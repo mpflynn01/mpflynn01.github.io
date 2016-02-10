@@ -1,26 +1,45 @@
 body {
-    padding:10px;    
-}
-
-h4, p, h1, nav {
     padding: 10px;
 }
 
+h1 {
+    font-weight: lighter;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size:1.5em;
+}
+
+p {
+    font-size:1em;
+    margin-top:-20px;
+}
+
+h4, p, h1, nav {
+    padding: 7px;
+}
+
+header {
+    padding-top: 8px;
+}
+
 header, .link {
-    background-color:rgb(61, 102, 192);
-    color:white;
+    background-color: rgb(61, 102, 192);
+    color: white;
     font-family: sans-serif;
 }
 
 td {
-    width:50%;
-    height:50%;
+    width: 50%;
+    height: 50%;
 }
 
 img {
-    width:100%;
+    width: 100%;
 }
 
 #gray {
-    background-color:rgb(243,243,243);    
+    background-color: rgb(243, 243, 243);
+    padding-bottom:10px; 
 }
