@@ -1,0 +1,30 @@
+body {
+    max-width: 80%;
+    text-align: center;
+}
+
+header {
+    border-bottom: solid 10px black;
+    max-height:20vh;
+}
+
+img {
+    max-height:20vh;
+    float:left;    
+}
+
+nav {
+    text-align:center;
+}
+
+.top {
+    float:right;
+}
+
+main {
+    clear:both;
+}
+
+p {
+    text-align: left;
+}
