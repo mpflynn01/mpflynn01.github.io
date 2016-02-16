@@ -1,0 +1,51 @@
+body {
+    width 1024px;
+    font-family: sans-serif;
+    padding:10px;
+}
+
+
+#background {
+    text-align: center;
+    overflow: hidden;
+    width: 850px;
+    height: 450px;
+    margin:auto;
+    padding-bottom: 20px;
+    background: url(img/nasa-background.jpg)
+}
+
+section {
+    margin:0 auto;
+    float:none;
+}
+
+#sm {
+}
+
+#office {
+    
+}
+
+#contact {
+}
+
+
+article {
+    float:left;
+    padding:10px;
+    height:324px;
+    width:270px;
+    margin:auto;
+    background-color: lightgray;
+}
+
+h4 {
+    text-align: center;    
+}
+
+.form {
+    width:200px;
+    height:80px;
+    background-color: white;
+}

@@ -2,21 +2,25 @@ body {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
-    padding:5px;
+    padding: 5px;
 }
 
 header {
     border-bottom: solid 10px black;
     border-top: solid 10px black;
-    max-height: 25vh;
+    max-height: 10%;
     width: 100%;
     text-align: center;
 }
 
-img {
+#logo {
     max-height: 20vh;
-    float: left;
-    padding: 5px;
+}
+
+.top {
+    max-height: 20vh;
+    padding: 1px;
+    text-align: center;
 }
 
 nav {
@@ -41,7 +45,8 @@ aside {
     max-width: 20vw;
     text-align: center;
     margin: 0 auto;
-    padding;5px 5px 5px 10px;
+    padding;
+    5px 5px 5px 10px;
 }
 
 .sponsors {
@@ -51,10 +56,6 @@ aside {
     display: block;
     margin-left: auto;
     margin-right: auto
-}
-
-.top {
-    text-align: center;
 }
 
 p {
@@ -68,10 +69,9 @@ p {
 a {
     font-size: 1.6em;
     font-weight: bolder;
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
 }
-
 
 a:hover {
     text-decoration: line-through;
