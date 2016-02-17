@@ -37,7 +37,7 @@ section {
 
 article {
     float: left;
-    border-right: solid black 2px;
+    /*border-right: solid black 2px;*/
 }
 
 aside {

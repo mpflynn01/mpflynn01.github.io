@@ -1,51 +1,86 @@
 body {
     width 1024px;
     font-family: sans-serif;
-    padding:10px;
+    padding: 10px;
 }
-
 
 #background {
     text-align: center;
     overflow: hidden;
     width: 850px;
     height: 450px;
-    margin:auto;
-    padding-bottom: 20px;
-    background: url(img/nasa-background.jpg)
+    margin: auto;
+    background: url(img/nasa-background.jpg);
+}
+
+h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 320px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 100px
 }
 
 section {
-    margin:0 auto;
-    float:none;
-}
-
-#sm {
+    background: lightgray;
+    width: 850px;
+    height: 324px;
+    margin: auto;
+    margin-top: 20px;
+    float: none;
 }
 
 #office {
-    
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
-#contact {
-}
-
 
 article {
-    float:left;
-    padding:10px;
-    height:324px;
-    width:270px;
-    margin:auto;
-    background-color: lightgray;
+    float: left;
+    height: 324px;
+    width: 270px;
+    margin: auto;
+}
+
+p {
+    padding: 0 5px 0 5px;
+    color: gray;
+    font-weight: lighter;
 }
 
 h4 {
-    text-align: center;    
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .form {
-    width:200px;
-    height:80px;
+    width: 200px;
     background-color: white;
+}
+
+#contact {}
+
+input[type=Name] {
+    height: 12px;
+}
+
+input[type=Message] {
+    height: 36px;
+}
+
+#button {
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    background: darkgray;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
 }
