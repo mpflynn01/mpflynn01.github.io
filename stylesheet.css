@@ -80,6 +80,7 @@ img {
     font-family: sans-serif;
     color: white;
     text-align: center;
+    vertical-align: middle;
 }
 
 div {
