@@ -1,46 +1,141 @@
-body {
+body,
+main {
     font-family: sans-serif;
-    width:700px;
+    font-weight: lighter;
+    width: 750px;
     margin: auto;
+    color: dimgray;
 }
 
 header {
-    text-align:center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.left {
+    float: left;
+    height: 330px;
+    width: 360px;
+    padding: 5px;
 }
 
 h2 {
     font-size: 1em;
 }
 
-div {
-    background:lightgray;
+#rightLarge {
+    width: 350px;
+    height: 330px;
+    padding: 0 5px 5px 5px;
+    float: right;
+}
+
+#rightLarge,
+.left {
+    margin-bottom: 5px;
+}
+
+.left,
+.right {
+    background: #ededed;
 }
 
 #image1 {
-    width:100%;
+    width: 100%;
 }
 
 .rimage {
-    height:100%;
+    float: left;
+    height: 100%;
+    margin-right:10px;
 }
 
-.left {
-    float:left;
-    height:350px;
-    width:350px;
+h6 {
+    float: left;
+    margin: 0;
+}
+
+#marg {
+    margin: 20px 0px;
 }
 
 .right {
-    float:right;
-    height:90px;
-    width:320px;
+    float: right;
+    height: 90px;
+    width: 350px;
+    padding: 5px;
 }
 
+.description {}
+
+hr {
+    margin: 5px;
+    clear: both;
+}
+
+
 footer {
-    clear:both;
-    width:200px;
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+    margin-top:20px;
+    clear: both;
+    padding: 20px 0px;
 }
 
 .foot {
-    float:left;
+    margin: 0 auto;
+    float: left;
+    width: 200px;
+    padding: 25px;
+}
+
+#mf {
+    border-right:solid lightgray 1px;
+    border-left:solid lightgray 1px;
+}
+
+h6 {
+    font-size: .8em;
+}
+
+
+section p {
+margin-top:20px;
+}
+
+p,
+li,
+a {
+    font-size: .7em;
+}
+
+a {
+    text-align: right;
+    color: green;
+    float: right;
+}
+
+li,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li:before {
+    content: '✔ ';
+    color: green;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    content:'';
+    display:block;
+    clear:both;
 }

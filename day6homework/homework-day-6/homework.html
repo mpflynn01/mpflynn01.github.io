@@ -3,15 +3,17 @@
 
 <head>
     <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css/">
     <link rel="stylesheet" href="css/homework-style.css" />
 </head>
 
 <body>
     <header>
         <h1>Recent From Blog</h1>
-        <p>Donec tincidunt felis quam </p>
+        <p>Donec tincidunt felis quam, eu tempus purus finibus in. Curabitur hendrerit, odio in viverra interdum,
+            <br> lorem velit scelerisque ipsum, a sagittis ligula leo in dolor. Etiam vestibulum.</p>
     </header>
-    <main>
+    <main class="clearfix">
         <section>
             <div class="left">
                 <img id="image1" src="img/keyboard.JPG" />
@@ -20,25 +22,27 @@
                 <a href="#">Read More</a>
             </div>
         </section>
-        <div class="right">
-            <img class="rimage" src="img/desk.jpg" />
-            <h6>sagittis</h6>
-            <p></p>
-        </div>
-        <div class="right">
-            <img class="rimage" src="img/laptop.jpg" />
-            <h6>ut libero</h6>
-            <p></p>
-        </div>
-        <div class="right">
-            <img class="rimage" src="img/window.jpg" />
-            <h6>magna dolor</h6>
-            <p></p>
-        </div>
+        <section id="rightLarge">
+            <div class="right">
+                <img class="rimage" src="img/desk.jpg" />
+                <h6>Suspendisse a sagittis</h6>
+                <p class="description">Sed ut sem elit. Pellentesque vitae erat vehicula quam posuere porta.</p>
+            </div>
+            <div id="marg" class="right">
+                <img class="rimage" src="img/laptop.jpg" />
+                <h6>Morbi eu metus ut libero</h6>
+                <p class="description">Pellentesque magna dolor, dapibus vitae lorem in, laoreet sagittis lacus.</p>
+            </div>
+            <div class="right">
+                <img class="rimage" src="img/window.jpg" />
+                <h6>Pellentesque magna dolor</h6>
+                <p class="description">Suspendisse a sagittis tortor, ac dapibus turpis.</p>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="clearfix">
         <div class="foot">
-            <h6>Why Profession?</h6>
+            <h5>Why Profession?</h5>
             <ul>
                 <li>Clean and Corporate webdesign</li>
                 <li>Well coded HTML template</li>
@@ -46,7 +50,7 @@
             </ul>
         </div>
         <div class="foot">
-            <h6>Main Features</h6>
+            <h5>Main Features</h5>
             <ul>
                 <li>Bootstrap 3.x and SASS</li>
                 <li>Super lighting page speed</li>
@@ -54,7 +58,7 @@
             </ul>
         </div>
         <div class="foot">
-            <h6>Transparent Pricing</h6>
+            <h5>Transparent Pricing</h5>
             <p>Are you interested in our services? Don't hesitate and contact us.</p>
             <a href="#">Check Pricing</a>
         </div>
