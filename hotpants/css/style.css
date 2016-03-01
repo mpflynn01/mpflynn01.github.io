@@ -1,10 +1,12 @@
 body {
-    width:100%;
+    margin:auto;
+    width:98%;
 }
 
 nav {
-    height:150px;
+    height:90px;
     padding:.5% 1%;
+    border-bottom: solid black 2px;
 }
 
 nav img {
@@ -18,14 +20,19 @@ nav ul {
 
 nav li {
     display:inline-block;
+    margin-top:70px;
 }
 
 nav a {
     color: #2f2f2f;
     text-decoration: none;
-    margin-left: 7px;
+    margin-left: 9px;
     font-size: 1em;
     padding-top:100px;
+}
+
+nav a:hover {
+    text-decoration: line-through;
 }
 
 .clearfix:after {
@@ -33,6 +40,6 @@ nav a {
     display: none;
     clear: both;
 /*    height: 0;*/
-    line-height: 0;
-    visibility: hidden;
+/*    line-height: 0;*/
+/*    visibility: hidden;*/
 }

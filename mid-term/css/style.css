@@ -1,0 +1,202 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+header {
+    padding: 4px 0px;
+}
+
+nav {
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/277332_543308349018969_647808710_o.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 180px 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+}
+
+main p {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main a {
+    border: solid gray 2px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: lightgray;
+    padding: 2px 10px;
+}
+
+main a:hover {
+    color: black;
+    background: white;
+}
+
+#about {
+    /*    background: #cfcfcf;*/
+}
+
+#aboutOne {
+    float: left;
+    width: 35%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#aboutOne img {
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+#aboutTwo {
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+#selection {
+    clear: both;
+}
+
+#selection > p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.beers {
+    padding: 0 .5%;
+    width: 24%;
+    float: left;
+    text-align: center;
+}
+
+.beers img {
+    width: 100%;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#blog {
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#blog > p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#blogOne {
+    width: 50%;
+    float: left;
+}
+
+#blogTwo {
+    width: 50%;
+    float: left;
+}
+
+#contact {
+    text-align: center;
+    margin-bottom: 20px;
+    /*    border: black solid 1px;*/
+    /*    background: #cfcfcf;*/
+}
+
+#contact a {
+    border: black solid 1px;
+    padding: 2px 4px;
+    margin: 100px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+#contact a:hover {
+    background: #5A472A;
+    color: white;
+}
+
+h5 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#toTop {
+    z-index: 100;
+    float: right;
+    font-weight: bold;
+    width: 4%;
+    margin-right: 20px;
+    /*    position:fixed;*/
+}
+
+#toTop img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    border-top: black solid 1px;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+}
