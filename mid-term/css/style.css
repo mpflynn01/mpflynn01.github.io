@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+/*    background-image:url(../img/photo-1452562961439-283b44358d48.jpeg);*/
 }
 
 h1 {
@@ -35,6 +36,7 @@ main {
     overflow: hidden;
     padding: 180px 0px;
     margin-bottom: 10px;
+/*    height:200px;*/
 }
 
 h2 {
@@ -67,6 +69,7 @@ main a:hover {
 
 #about {
     /*    background: #cfcfcf;*/
+    margin: 20px auto;
 }
 
 #aboutOne {
@@ -87,6 +90,11 @@ main a:hover {
     text-align: center;
 }
 
+#aboutTwo p {
+    line-height: 22px;
+    text-align: left;
+}
+
 h3 {
     font-size: 2em;
     margin: 20px 0px;
@@ -95,6 +103,9 @@ h3 {
 
 #selection {
     clear: both;
+    margin: 20px auto;
+    background: #ececec;
+    padding:10px 0px;
 }
 
 #selection img {
@@ -110,13 +121,22 @@ h3 {
 
 .beers {
     padding: 0 .5%;
-    width: 24%;
+    width: 21%;
+    margin-right:37px;
     float: left;
     text-align: center;
 }
 
+#selection div:last-child {
+    margin-right:0;
+}
+
 .beers img {
     width: 100%;
+}
+
+beers a:visited {
+    text-decoration: none;
 }
 
 h4 {
@@ -128,12 +148,12 @@ h4 {
     padding-top: 20px;
     clear: both;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 20px auto;
 }
 
 #blog > p {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 2em;
     font-weight: bold;
 }
@@ -150,6 +170,7 @@ h4 {
 
 #blog img {
     width:80%;
+    height:80%;
     margin:auto;
 }
 
@@ -157,7 +178,8 @@ h4 {
     text-align: center;
     margin-bottom: 30px;
     /*    border: black solid 1px;*/
-    /*    background: #cfcfcf;*/
+        background: #ececec;
+    padding:10px 0;
 }
 
 #contact a {
@@ -197,11 +219,27 @@ footer {
     text-align: center;
     border-top: black solid 1px;
     padding: 10px 0;
+    margin-bottom:10px;
+}
+
+footer img {
+    float:right;
+    width:5%;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.container2 {
+    width:90%;
+    margin:0 auto;
+}
+
+.container3 {
+    width:95%;
+    margin:0 auto;
 }
 
 .clearfix:after {
