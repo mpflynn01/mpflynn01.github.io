@@ -148,6 +148,11 @@ h4 {
     float: left;
 }
 
+#blog img {
+    width:80%;
+    margin:auto;
+}
+
 #contact {
     text-align: center;
     margin-bottom: 30px;

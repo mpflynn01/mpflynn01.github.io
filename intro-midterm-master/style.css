@@ -1,0 +1,65 @@
+body {
+    width:90%;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color:black;
+}
+
+h1 {
+    font-size:2em;
+    color:white;
+    font-weight: lighter;
+}
+
+main {
+    width:100%;
+}
+
+main img {
+    width:100%;
+}
+
+#about {
+    margin:10px auto;
+    text-align: center;
+    width:80%;
+}
+
+#about p {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    padding:10px 0;
+}
+
+#pics {
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+
+#pics div {
+    width:32%;
+    height:300px;
+    float:left;
+    margin:auto;
+    text-align: center;
+}
+
+div img {
+    width:75%;
+    height:75%;
+}
+
+.clearfix:after {
+    content:'';
+    display:block;
+    clear:both;
+}
