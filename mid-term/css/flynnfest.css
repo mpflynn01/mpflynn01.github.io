@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    border-bottom: solid 7px black;
+    border-top: solid 7px black;
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    max-height: 100px;
+    float: left;
+}
+
+
+/*.top {*/
+
+
+/*    max-height: 20vh;*/
+
+
+/*    padding: 1px;*/
+
+
+/*    text-align: center;*/
+
+
+/*}*/
+
+nav {
+    float: right;
+    margin-top: 70px;
+}
+
+nav a {
+    margin-left: 10px;
+}
+
+#about {
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+}
+
+#lineup {
+    max-width: 37%;
+    float: right;
+    margin-top: 10px;
+}
+
+article {
+    float: left;
+    /*border-right: solid black 2px;*/
+}
+
+aside {
+    clear: both;
+/*    float: right;*/
+/*    max-width: 25%;*/
+    text-align: center;
+    margin: 0 auto;
+/*    padding;*/
+    5px 5px 5px 10px;
+}
+
+aside img {
+  width:20%;
+    float:left;
+}
+
+.sponsors {
+    text-align: center;
+    max-width: 70%;
+    /*    max-height: 100%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    font-size: 1.6em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    display: inline-block;
+    letter-spacing: 5px;
+}
+
+li:after {
+    content: '||'
+}
+
+#lineup {
+    width: 85%;
+    margin: auto;
+}
+
+li:hover {
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+footer {
+    clear: both;
+    margin-top: 5px;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.container {
+    max-width: 97%;
+    margin: 0 auto;
+}
