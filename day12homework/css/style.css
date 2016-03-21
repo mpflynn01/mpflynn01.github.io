@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+main {
+    background-color: #326f0b;
+    height:300px;
+}
+
+#divHero {
+    background-color: #000000;
+    height:300px;
+}
+
+h1,
+h2 {
+    font-size: 3em;
+    padding: 120px 0;
+    text-align: center;
+}
+
+section {
+    background-color: #480b6f;
+    margin: auto;
+    text-align: center;
+}
+
+section > div {
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+}
+
+.small {
+    background-color: aquamarine;
+    height: 20px;
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 10px 0px;
+    padding: 20px auto 10px;
+}
+
+p {
+    font-size: .8em;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+@media (max-width:800px) {
+    main, #divHero {
+        width: 50%;
+        float: left
+    }
+    
+    section > div {
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+    
+    h1, h2 {
+        padding-left:20px;
+        text-align:left;
+        font-size:2.5em;
+    }
+}
