@@ -1,0 +1,73 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+
+main {
+    background-image: url(../img/sub_header_home.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 160px 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size:3em;
+}
+
+div {
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+div h2 {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+div img {
+    margin:auto;
+    
+}
+
+div p {
+    margin: auto;
+    width: 100%;
+    font-size: .8em;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+    div {
+        margin: 15px 0px;
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    
+      div {
+        margin: 15px 0px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+}*/
