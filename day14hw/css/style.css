@@ -1,0 +1,49 @@
+/*shared*/
+
+body {
+    font-family: sans-serif;
+    margin:auto;
+}
+
+#foot {
+    background-color:grey;
+    color:white;
+}
+
+#foot p {
+    border-bottom: solid 1px white;
+    width:60%;
+}
+
+#foot div {
+    padding:40px;
+}
+
+#hero {
+    padding:20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    background-color:grey;
+    padding: 10px 5px;
+}
+
+article {
+    padding: 10px;
+}
+
+article h1 {
+    border-bottom: 1px solid black;
+}
+
+article p {
+    font-family: serif;
+    font-weight: bolder;
+}
