@@ -1,0 +1,183 @@
+/*
+main {
+    margin-top: 50px;
+}
+*/
+
+body {
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+    margin:auto;
+}
+
+.nav2 {
+    text-align: center;
+    position: fixed;
+    background-color:#b2c7d2;
+    height:100vh;
+}
+
+.navbar-default {
+    background-color:none;
+     border-color: #e7e7e7;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 4em;
+}
+
+#who p {
+    font-size: 3em;
+}
+
+.frame {
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1446102892025-3900145fd2a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=114316422cec6546744d3801d0fe53d2);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav2 p {
+    line-height: 70px;
+}
+
+#hero img {
+    height: 700px;
+      width:auto;
+}
+
+
+.pages {
+    /*    height:80px;*/
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    height: 240px;
+    border-bottom: solid 1px black;
+}
+
+main {
+    margin-left: 500px;
+}
+
+#logo img {
+    height: 80%;
+    width:auto;
+
+}
+
+.hero {
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+}
+
+.hero img {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.hero2 {
+    margin-top: 100vh;
+}
+
+.panel {
+    background-color: white;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.separater {
+    margin-bottom:150px;
+}
+
+.icons {
+    background-color: white;
+    height:300px;
+/*    text-align: center;*/
+/*    line-height: 300px;*/
+}
+
+.icons p {
+    font-size: 4em;
+}
+
+#who {
+    background-color: white;
+    height: 500px;
+    padding-top: 200px;
+}
+
+* {
+    margin: 0px;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding: 0px 0px;
+}
