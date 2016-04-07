@@ -13,19 +13,19 @@ body {
 img {
     width: 100%;
     overflow: hidden;
-    margin:auto;
+    margin: auto;
 }
 
 .nav2 {
     text-align: center;
     position: fixed;
-    background-color:#b2c7d2;
-    height:100vh;
+    background-color: #b2c7d2;
+    height: 100vh;
 }
 
 .navbar-default {
-    background-color:none;
-     border-color: #e7e7e7;
+    background-color: none;
+    border-color: #e7e7e7;
 }
 
 h4 {
@@ -51,12 +51,6 @@ h5 {
     line-height: 70px;
 }
 
-#hero img {
-    height: 700px;
-      width:auto;
-}
-
-
 .pages {
     /*    height:80px;*/
     line-height: 40px;
@@ -74,8 +68,7 @@ main {
 
 #logo img {
     height: 80%;
-    width:auto;
-
+    width: auto;
 }
 
 .hero {
@@ -87,7 +80,7 @@ main {
 }
 
 .hero img {
-    width: 85%;
+    padding-top: 10vh;
     height: auto;
     margin: 0 auto;
 }
@@ -107,14 +100,14 @@ main {
 }
 
 .separater {
-    margin-bottom:150px;
+    margin-bottom: 150px;
 }
 
 .icons {
     background-color: white;
-    height:300px;
-/*    text-align: center;*/
-/*    line-height: 300px;*/
+    height: 300px;
+    /*    text-align: center;*/
+    /*    line-height: 300px;*/
 }
 
 .icons p {
@@ -180,4 +173,24 @@ main {
 .col-xs-8,
 .col-xs-9 {
     padding: 0px 0px;
+}
+
+@media (max-width: @screen-sm) {
+    .hero img {
+        padding-top: 25vh;
+    }
+}
+
+
+@media (min-width: @screen-xs) {
+    .hero img {
+        padding-top: 25vh;
+    }
+    .hero {
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+}
 }
