@@ -54,7 +54,7 @@ h6 {
 }
 
 .about {
-    height: 400px;
+    height: 450px;
 }
 
 .about h5 {
@@ -66,7 +66,7 @@ h6 {
 }
 
 .frame {
-    height: 400px;
+    height: 450px;
     background-image: url(https://images.unsplash.com/photo-1446102892025-3900145fd2a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=114316422cec6546744d3801d0fe53d2);
     background-size: cover;
     background-position: center;
@@ -267,7 +267,15 @@ a:hover {
         color: white;
     }
     .about h5 {
-        padding-top: 20px;
+        padding: 20px;
+    }
+    
+    .about {
+        
+    }
+    
+    h5 {
+        text-decoration: none;
     }
     
     
