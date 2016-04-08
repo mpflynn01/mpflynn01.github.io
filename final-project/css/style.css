@@ -8,6 +8,7 @@ body {
     background-color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 img {
@@ -16,22 +17,13 @@ img {
     margin: auto;
 }
 
-.nav2 {
-    text-align: center;
-    position: fixed;
-    background-color: #eff3f6;
-    height: 100vh;
-    -webkit-transform: translateZ(0);
--webkit-backface-visibility: hidden;
-}
-
 .navbar-default {
     background-color: none;
     border-color: #e7e7e7;
 }
 
 h3 {
-    font-size:.8em;
+    font-size: .8em;
 }
 
 h4 {
@@ -45,11 +37,11 @@ h5 {
 
 #who h3 {
     font-size: 3em;
-    padding:0 20px;
+    padding: 0 20px;
 }
 
 .contact div {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .frame {
@@ -88,9 +80,6 @@ main {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    position: fixed;
-    -webkit-transform: translateZ(0);
--webkit-backface-visibility: hidden;
 }
 
 .hero img {
@@ -104,7 +93,7 @@ main {
 }
 
 .showcase {
-    height:400px;
+    height: 400px;
 }
 
 .hero2 {
@@ -117,30 +106,23 @@ main {
     padding-top: 200px;
 }
 
-.separater {
-    margin-bottom: 150px;
-}
-
 .icons {
     background-color: #eff3f6;
-    
     /*    text-align: center;*/
     /*    line-height: 300px;*/
 }
 
 .icons h3 {
-    font-size:3.5em;
-    padding:30px;
+    font-size: 3.5em;
+    padding: 30px;
 }
 
 .icons p {
-    font-size:1em;
-    padding:30px;
+    font-size: 1em;
+    padding: 30px;
 }
 
-
 #who {
-    background-color: #eff3f6;
     height: 500px;
     padding-top: 100px;
 }
@@ -150,14 +132,13 @@ main {
 }
 
 .social {
-    width:22%;
+    width: 22%;
     line-height: 70px;
 }
 
 #socialWrap {
-     border-bottom: none;
+    border-bottom: none;
 }
-
 
 .col-lg-1,
 .col-lg-10,
@@ -206,7 +187,75 @@ main {
 .col-xs-6,
 .col-xs-7,
 .col-xs-8,
-.col-xs-9 {
+.col-xs-9,
+.col-md-offset-3 {
     padding: 0px 0px;
+    margin-right: 0px;
 }
 
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+
+#map {
+    width:100%
+}
+
+main.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* No media query since this is the default in Bootstrap */
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 991px) {
+    .separater {
+        margin-bottom: 0px;
+    }
+    
+    .bgWhite {
+        background-color:white;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width:992px) {
+    .nav2 {
+    position: fixed;
+     text-align: center;
+    background-color: #eff3f6;
+    height: 100vh;
+    }
+    .hero {
+        position: fixed;
+    }
+    .separater {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: @screen-lg-min) {
+    ...
+}
