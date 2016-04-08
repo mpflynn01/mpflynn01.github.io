@@ -267,21 +267,20 @@ a:hover {
         color: white;
     }
     .about h5 {
-        padding: 20px;
+        padding-top: 20px;
     }
-    
-    .about {
-        
-    }
+
     
     h5 {
         text-decoration: none;
     }
     
-    
-    
     .about {
         height:300px;
+    }
+    
+    .animated {
+        
     }
 }
 
@@ -301,6 +300,7 @@ a:hover {
     .mdOverride {
         margin-top: 100vh;
     }
+
 }
 
 
