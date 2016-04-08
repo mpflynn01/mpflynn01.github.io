@@ -28,7 +28,7 @@
 <body>
     <div class="visible-md visible-lg nav2 col-md-3 fixed container-fluid">
         <div id="logo" class="">
-            <img class="img-responsive text-center" src="img/CFPlogo.png" />
+            <img class="animated flipInX img-responsive text-center" src="img/CFPlogo.png" />
             <h4>Creative F***ing People</h4>
         </div>
         <div class="pages">
@@ -100,7 +100,7 @@
         </div>
     </div>
     <main class="container-fluid">
-        <section class="row">
+        <section class="mdOverride row rowOverride">
             <div class="col-md-9 col-md-offset-3">
                 <div class="bgWhite about col-md-7 col-sm-6">
                     <h5>CFP</h5>
@@ -136,8 +136,8 @@
         <section class="row rowOverride2">
             <div class="col-md-9 col-md-offset-3">
 
-                <section class="row rowOverride2">
-                    <div class="bgWhite col-xs-12">
+                <section class="row rowOverride">
+                    <div class="bgWhite">
                         <h5>Featured</h5>
                     </div>
                     <div class="bgWhite col-md-6 col-sm-6">
@@ -185,9 +185,9 @@
                     </div>
                     <div class="altBG bgWhite col-md-4">
                         <p>FIND US</p>
-                        <p>Austin, TX</p>
                         <i class="fa fa-location-arrow fa-2x"></i>
-                        <iframe id="map" class="col-xs-12 visible-sm visible-xs" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13781.425696097152!2d-97.7036667!3d30.283913300000002!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1460079039408" width="600" height="450" draggable=false frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <p>Austin, TX</p>
+                        <iframe  class="maps col-xs-12 visible-sm visible-xs" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13781.425696097152!2d-97.7036667!3d30.283913300000002!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1460079039408" width="600" height="450" draggable=false frameborder="0" style="border:0" allowfullscreen></iframe>
 
                     </div>
                     <div id="socialWrap" class="visible-sm visible-xs col-xs-12 pages">
@@ -213,6 +213,9 @@
 
     <!--missing JQuery-->
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <!--MAP JS-->
+    <script src="js/map.js"></script>
     <!--<script src="js/bootstrap.min.js"></script>-->
     <script src="js/animate-min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>

@@ -1,4 +1,7 @@
-main {}
+.maps {
+    pointer-events: none;
+    width: 100%
+}
 
 body {
     background-color: white;
@@ -34,7 +37,7 @@ h5 {
 }
 
 h6 {
-    font-size:2em;
+    font-size: 2em;
 }
 
 .nav2 {
@@ -51,7 +54,7 @@ h6 {
 }
 
 .about {
-    height:400px;
+    height: 400px;
 }
 
 .about h5 {
@@ -59,8 +62,7 @@ h6 {
 }
 
 .about h6 {
-    padding:0px 60px;
-    
+    padding: 0px 60px;
 }
 
 .frame {
@@ -69,7 +71,6 @@ h6 {
     background-size: cover;
     background-position: center;
 }
-
 
 .nav2 p {
     line-height: 70px;
@@ -86,16 +87,13 @@ h6 {
     border-bottom: solid 1px black;
 }
 
-
 #logo img {
     height: 80%;
     width: auto;
 }
 
-
-
 .hero {
-/*    margin-top:50px;*/
+    /*    margin-top:50px;*/
     background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894);
     background-position: center;
     background-size: cover;
@@ -124,12 +122,12 @@ h6 {
 }
 
 .hero2 {
-    height:500px;
+    height: 500px;
 }
 
 #who {
-/*    height: 500px;*/
-/*    padding-top: 100px;*/
+    /*    height: 500px;*/
+    /*    padding-top: 100px;*/
 }
 
 * {
@@ -137,7 +135,7 @@ h6 {
 }
 
 .social {
-    margin:0px;
+    margin: 0px;
     width: 24%;
     line-height: 70px;
 }
@@ -159,9 +157,8 @@ h6 {
 }
 
 .footer {
-   line-height:50px;
+    line-height: 50px;
 }
-
 
 .col-lg-1,
 .col-lg-10,
@@ -216,11 +213,6 @@ h6 {
     margin-right: 0px;
 }
 
-
-#map {
-    width: 100%
-}
-
 main.container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -232,16 +224,15 @@ main.container-fluid {
 }
 
 a {
-    color:black;
+    color: black;
 }
 
 a:hover {
-    color:#01456B;
+    color: #01456B;
 }
 
 
 /* Extra small devices (phones, less than 768px) */
-
 
 
 /* No media query since this is the default in Bootstrap */
@@ -265,21 +256,26 @@ a:hover {
 }
 
 
-
-
 /* Medium devices (desktops, 992px and up) */
 
 @media (max-width:991px) {
     .rowOverride {
-        margin-top:0px;
-    } 
-    
+        margin-top: 0px;
+    }
     .altBG {
-        background-color:#01456B;
-        color:white;
+        background-color: #01456B;
+        color: white;
+    }
+    .about h5 {
+        padding-top: 20px;
+    }
+    
+    
+    
+    .about {
+        height:300px;
     }
 }
-
 
 @media (min-width:992px) {
     .nav2 {
@@ -294,9 +290,8 @@ a:hover {
     .separater {
         margin-bottom: 40px;
     }
-    
     .mdOverride {
-        margin-top:100vh;
+        margin-top: 100vh;
     }
 }
 
