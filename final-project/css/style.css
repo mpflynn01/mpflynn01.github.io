@@ -21,6 +21,8 @@ img {
     position: fixed;
     background-color: #eff3f6;
     height: 100vh;
+    -webkit-transform: translateZ(0);
+-webkit-backface-visibility: hidden;
 }
 
 .navbar-default {
@@ -87,6 +89,8 @@ main {
     background-size: cover;
     height: 100vh;
     position: fixed;
+    -webkit-transform: translateZ(0);
+-webkit-backface-visibility: hidden;
 }
 
 .hero img {
