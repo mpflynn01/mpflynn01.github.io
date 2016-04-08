@@ -206,23 +206,3 @@ main {
     padding: 0px 0px;
 }
 
-@media (max-width: @screen-sm) {
-    .hero img {
-        padding-top: 25vh;
-    }
-}
-
-
-@media (min-width: @screen-xs) {
-    .hero img {
-        padding-top: 25vh;
-         position: static;
-    }
-    .hero {
-    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    position: static;
-}
-}
