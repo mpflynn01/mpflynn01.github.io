@@ -1,8 +1,4 @@
-/*
-main {
-    margin-top: 50px;
-}
-*/
+main {}
 
 body {
     background-color: white;
@@ -33,6 +29,14 @@ h4 {
 h5 {
     font-size: 4em;
     font-family: 'Parisienne', cursive;
+}
+
+.nav2 {
+/*    position: fixed;*/
+    text-align: center;
+    background-color: #eff3f6;
+    height: 100vh;
+    z-index:0;
 }
 
 #who h3 {
@@ -139,6 +143,22 @@ main {
 #socialWrap {
     border-bottom: none;
 }
+.scrollit {
+    overflow:hidden;
+}
+
+.row {
+    margin:100vh 0px 0px;
+}
+
+.rowOverride {
+    margin-top:100px;   
+}
+
+.rowOverride2 {
+    margin-top:0px;
+}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -194,16 +214,19 @@ main {
 }
 
 .overlay {
-   background:transparent; 
-   position:relative; 
-   width:640px;
-   height:480px; /* your iframe height */
-   top:480px;  /* your iframe height */
-   margin-top:-480px;  /* your iframe height */
+    background: transparent;
+    position: relative;
+    width: 640px;
+    height: 480px;
+    /* your iframe height */
+    top: 480px;
+    /* your iframe height */
+    margin-top: -480px;
+    /* your iframe height */
 }
 
 #map {
-    width:100%
+    width: 100%
 }
 
 main.container-fluid {
@@ -229,9 +252,8 @@ main.container-fluid {
     .separater {
         margin-bottom: 0px;
     }
-    
     .bgWhite {
-        background-color:white;
+        background-color: white;
     }
 }
 
@@ -240,10 +262,10 @@ main.container-fluid {
 
 @media (min-width:992px) {
     .nav2 {
-    position: fixed;
-     text-align: center;
-    background-color: #eff3f6;
-    height: 100vh;
+        position: fixed;
+        text-align: center;
+        background-color: #eff3f6;
+        height: 100vh;
     }
     .hero {
         position: fixed;
