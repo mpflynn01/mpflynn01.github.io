@@ -62,7 +62,7 @@ h6 {
 }
 
 .about h6 {
-    padding: 0px 60px;
+    padding: 0px 20px;
 }
 
 .frame {
@@ -281,6 +281,10 @@ a:hover {
     
     .animated {
         
+    }
+    
+    .frame {
+        height:300px;
     }
 }
 
