@@ -30,6 +30,11 @@ h4 {
 h5 {
     font-size: 4em;
     font-family: 'Parisienne', cursive;
+    text-decoration: underline;
+}
+
+h6 {
+    font-size:2em;
 }
 
 .nav2 {
@@ -45,12 +50,21 @@ h5 {
     /*    padding: 0 20px;*/
 }
 
-.contact div {
-    padding-bottom: 20px;
+.about {
+    height:400px;
+}
+
+.about h5 {
+    padding-top: 90px;
+}
+
+.about h6 {
+    padding:0px 60px;
+    
 }
 
 .frame {
-    height: 500px;
+    height: 400px;
     background-image: url(https://images.unsplash.com/photo-1446102892025-3900145fd2a7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=114316422cec6546744d3801d0fe53d2);
     background-size: cover;
     background-position: center;
@@ -72,20 +86,16 @@ h5 {
     border-bottom: solid 1px black;
 }
 
-main {
-    margin-left: 500px;
-}
 
 #logo img {
     height: 80%;
     width: auto;
 }
 
-.contTitle {
-    color: black;
-}
+
 
 .hero {
+/*    margin-top:50px;*/
     background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894);
     background-position: center;
     background-size: cover;
@@ -102,29 +112,10 @@ main {
     background-color: rgb(239, 243, 246);
 }
 
-.showcase {
-    height: 400px;
-}
-
-.hero2 {
-    margin-top: 100vh;
-}
-
-.panel {
-    background-color: white;
-    height: 500px;
-    padding-top: 200px;
-}
-
 .icons {
     background-color: #eff3f6;
     height: 250px;
     text-align: center;
-}
-
-.icons h3 {
-    font-size: 3.5em;
-    padding: 30px;
 }
 
 .icons p {
@@ -132,9 +123,13 @@ main {
     padding: 30px;
 }
 
+.hero2 {
+    height:500px;
+}
+
 #who {
-    height: 500px;
-    padding-top: 100px;
+/*    height: 500px;*/
+/*    padding-top: 100px;*/
 }
 
 * {
@@ -142,16 +137,13 @@ main {
 }
 
 .social {
-    width: 22%;
+    margin:0px;
+    width: 24%;
     line-height: 70px;
 }
 
 #socialWrap {
     border-bottom: none;
-}
-
-.scrollit {
-    overflow: hidden;
 }
 
 .row {
@@ -166,9 +158,10 @@ main {
     margin-top: 0px;
 }
 
-.contact {
-    margin-top: 0px;
+.footer {
+   line-height:50px;
 }
+
 
 .col-lg-1,
 .col-lg-10,
@@ -223,6 +216,7 @@ main {
     margin-right: 0px;
 }
 
+
 #map {
     width: 100%
 }
@@ -249,6 +243,7 @@ a:hover {
 /* Extra small devices (phones, less than 768px) */
 
 
+
 /* No media query since this is the default in Bootstrap */
 
 
@@ -270,7 +265,21 @@ a:hover {
 }
 
 
+
+
 /* Medium devices (desktops, 992px and up) */
+
+@media (max-width:991px) {
+    .rowOverride {
+        margin-top:0px;
+    } 
+    
+    .altBG {
+        background-color:#01456B;
+        color:white;
+    }
+}
+
 
 @media (min-width:992px) {
     .nav2 {
@@ -284,6 +293,10 @@ a:hover {
     }
     .separater {
         margin-bottom: 40px;
+    }
+    
+    .mdOverride {
+        margin-top:100vh;
     }
 }
 
