@@ -229,6 +229,7 @@ a {
 
 a:hover {
     color: #01456B;
+    text-decoration: none;
 }
 
 
